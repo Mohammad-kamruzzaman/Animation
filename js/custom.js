@@ -1,0 +1,81 @@
+$('.slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText:['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>'],
+    autoplay:true,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+$('.caro').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayHoverPause:true,
+    slideBy:2,
+    autoplayTimeout:4000,
+    center:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+$('.client').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayHoverPause:true,
+    slideBy:1,
+    nav:true,
+    navText:['<i class="fas fa-long-arrow-alt-left"></i>','<i class="fas fa-long-arrow-alt-right"></i>'],
+    autoplayTimeout:5000,
+    center:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+$('.agnet').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayHoverPause:true,
+    slideBy:2,
+    autoplayTimeout:4000,
+    center:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+})
